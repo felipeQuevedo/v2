@@ -7,11 +7,15 @@ PORT = 6368
 
 # Genera el contenido HTML
 mensaje = """<html>
-<head></head>
-<body><p>Hola Mundo!</p>
-<p>Hola ficha</p>
-<h1>CASI Q NO </h1>
-<p>2558346</p></body>
+<head>
+    <meta http-equiv="refresh" content="0;url=http://localhost:6368/holamundo.html" />
+</head>
+<body>
+    <p>Redireccionando...</p>
+    <p>Hola colombia</p>
+    <p>Felipe Quevedo</p>
+    <p>2558346.</p>
+</body>
 </html>"""
 
 # Guarda el contenido HTML en un archivo dentro del contenedor
