@@ -14,7 +14,7 @@ mensaje = """<html>
 </html>"""
 
 # Guarda el contenido HTML en un archivo dentro del contenedor
-with open('/path/to/holamundo.html', 'w') as f:
+with open('/app/holamundo.html', 'w') as f:
     f.write(mensaje)
 
 # Define el controlador de solicitudes HTTP
