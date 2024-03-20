@@ -3,7 +3,7 @@ import socketserver
 import webbrowser
 
 # Configura el puerto en el que deseas ejecutar el servidor
-PORT = 6368
+PORT = 6369
 
 # Genera el contenido HTML
 mensaje = """<html>
@@ -27,4 +27,7 @@ with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
     # Abre el navegador en la dirección del servidor
     webbrowser.open_new_tab(f'http://localhost:{PORT}/holamundo.html')
     # Inicia el servidor y espera las solicitudes
-    httpd.serve_forever()
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        print("Servidor detenido.")
