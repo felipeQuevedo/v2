@@ -8,10 +8,10 @@ PORT = 6368
 # Genera el contenido HTML
 mensaje = """<html>
 <head>
-    <meta http-equiv="refresh" content="0;url=http://localhost:6368/holamundo.html" />
 </head>
 <body>
-    <p>Redireccionando...</p>
+<h1>Hola mundo! </h1>
+    <p>afk</p>
     <p>Hola colombia</p>
     <p>Felipe Quevedo</p>
     <p>2558346.</p>
