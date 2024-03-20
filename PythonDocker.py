@@ -13,7 +13,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
 with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
     print("Servidor HTTP activo en el puerto", PORT)
     # Abre el navegador en la dirección del servidor
-    webbrowser.open_new_tab(f'http://localhost:{PORT}/holamundo.html')
+    webbrowser.open_new_tab(f'http://localhost:{PORT}/PythonDocker.py')
     # Inicia el servidor y espera las solicitudes
     httpd.serve_forever()
 
