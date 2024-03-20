@@ -7,6 +7,7 @@ PORT = 6368
 
 # Genera el contenido HTML
 mensaje = """<html>
+
 <head>
 </head>
 <body>
