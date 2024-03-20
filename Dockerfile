@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.9-slim
 
 # Instala las dependencias
 RUN apt-get update && \
@@ -10,4 +10,4 @@ COPY PythonDocker.py .
 
 
 # Ejecuta tu script Python cuando se inicie el contenedor
-CMD ["python", "PythonDocker.py"]
+CMD python PythonDocker.py
