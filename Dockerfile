@@ -8,8 +8,6 @@ RUN apt-get update && \
 # Copia el script Python al contenedor
 COPY PythonDocker.py .
 
-# Instala las dependencias de Python
-RUN pip install webbrowser
 
 # Ejecuta tu script Python cuando se inicie el contenedor
 CMD ["python", "PythonDocker.py"]
