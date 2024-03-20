@@ -1,6 +1,6 @@
 
  FROM python:3.10
- WORKDIR /app
- COPY . /app
+ WORKDIR /PythonDocker
+ COPY . /PythonDocker
  EXPOSE 6369
  CMD python PythonDocker.py
