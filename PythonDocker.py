@@ -3,7 +3,7 @@ import socketserver
 import webbrowser
 
 # Configura el puerto en el que deseas ejecutar el servidor
-PORT = 6369
+PORT = 6368
 
 # Genera el contenido HTML
 mensaje = """<html>
