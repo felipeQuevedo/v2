@@ -3,4 +3,4 @@
  WORKDIR /app
  COPY . /app
  EXPOSE 6369
- CMD python app.py 
+ CMD python PythonDocker.py
